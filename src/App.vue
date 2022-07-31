@@ -3,8 +3,5 @@ import TsxComp from './components/TsxComp'
 </script>
 
 <template>
-  <TsxComp
-    class="123"
-    :class="123"
-  />
+  <TsxComp />
 </template>
