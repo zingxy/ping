@@ -133,6 +133,7 @@ const sidebar = {
 }
 
 export default defineConfig({
+  base: '/ping/',
   title: 'Ping',
   themeConfig: {
     nav,
