@@ -6,10 +6,9 @@ import TsxComp from "../../../src/components/TsxComp";
 </script>
 
 <HelloWorld />
-
+<TsxComp />
 ```vue
 <template>
     <HelloWorld />
 </template>
 ```
-
