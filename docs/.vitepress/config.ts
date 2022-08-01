@@ -23,9 +23,21 @@ const sidebar = {
 
 export default defineConfig({
   base: '/ping/',
-  title: 'zing',
+  title: 'Watermelon',
+  head: [
+    [
+      // 设置网站标题
+      'link',
+      {
+        rel: 'icon',
+        href: '/logo.svg',
+      },
+    ],
+  ],
   themeConfig: {
+    logo: '/logo.svg',
     nav,
     sidebar,
+    socialLinks: [{ icon: 'github', link: 'https://github.com/zingxy' }],
   },
 })
