@@ -1,11 +1,7 @@
 <script setup lang="ts">
-import TsxComp from './components/TsxComp'
+import WButton from './button/src/Button'
 </script>
 
 <template>
-  <TsxComp>
-    <!-- <template #header></template> -->
-    <!-- <template #main></template> -->
-    <!-- <template #footer></template> -->
-  </TsxComp>
+  <w-button>123</w-button>
 </template>
