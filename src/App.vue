@@ -3,5 +3,9 @@ import TsxComp from './components/TsxComp'
 </script>
 
 <template>
-  <TsxComp />
+  <TsxComp>
+    <!-- <template #header></template> -->
+    <!-- <template #main></template> -->
+    <!-- <template #footer></template> -->
+  </TsxComp>
 </template>

@@ -34,6 +34,7 @@ export default defineConfig({
       },
     ],
   ],
+  markdown: {},
   themeConfig: {
     logo: '/logo.svg',
     nav,

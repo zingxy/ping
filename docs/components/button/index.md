@@ -1,14 +1,18 @@
 # Button
 
 <script setup>
-import HelloWorld from "../../../src/components/HelloWorld.vue";
 import TsxComp from "../../../src/components/TsxComp";
 </script>
 
-<HelloWorld />
 <TsxComp />
+
+::: details code
+- 这是
+
 ```vue
 <template>
-    <HelloWorld />
+  <TsxComp />
 </template>
 ```
+
+:::

@@ -21,8 +21,8 @@ features:
     title: Vue3
     details: UI框架
   - icon: 😃
-    title: TailwindCSS
-    details: CSS方案
+    title: SASS TailwindCSS
+    details: CSS
   - icon: 💪
     title: eslint prettier
     details: 代码规范
