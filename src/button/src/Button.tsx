@@ -7,7 +7,10 @@ export default defineComponent({
   setup(props: ButtonProps, { slots }) {
     return () => {
       return (
-        <button class={`w-btn s-btn--${props.type}`}>
+        <button
+          disabled={props.disabled}
+          class={`w-btn w-btn--${props.type} w-btn--${props.size} `}
+        >
           {slots.default ? slots.default() : '按钮'}
         </button>
       )

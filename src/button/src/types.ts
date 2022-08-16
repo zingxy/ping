@@ -9,6 +9,14 @@ export const buttonProps = {
     type: String as PropType<'primary' | 'secondary' | 'text'>,
     default: 'secondary',
   },
+  size: {
+    type: String as PropType<'small' | 'medium' | 'large'>,
+    default: 'large',
+  },
+  disabled: {
+    type: Boolean,
+    default: false,
+  },
 } as const
 
 // setup 函数props参数

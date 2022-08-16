@@ -1,0 +1,11 @@
+@use './variables.scss';
+@use './mixins.scss';
+.w-btn {
+  @apply flex justify-center items-center rounded-md px-1;
+  &[disabled] {
+    @apply cursor-not-allowed;
+  }
+
+  @include mixins.buttonModifier(variables.$types);
+  @include mixins.buttonModifier(variables.$size);
+}

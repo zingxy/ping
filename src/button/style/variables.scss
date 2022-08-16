@@ -1,0 +1,36 @@
+$types: (
+  primary: (
+    // @apply
+    apply: text-white bg-primary-500,
+    pseudos: (
+      hover: bg-primary-700,
+      focus: bg-primary-500,
+      active: bg-primary-500,
+      disabled: text-white bg-primary-300 border-0,
+    ),
+  ),
+  secondary: (
+    apply: text-white bg-secondary-500 border-2,
+    pseudos: (
+      hover: bg-secondary-700,
+      focus: bg-secondary-500,
+      active: bg-secondary-500,
+      disabled: text-white bg-secondary-300 border-0,
+    ),
+  ),
+);
+
+// 按钮尺寸
+$size: (
+  // @apply
+  small:
+    (
+      apply: h-4 text-xs,
+    ),
+  medium: (
+    apply: h-8 text-base,
+  ),
+  large: (
+    apply: h-14 text-lg,
+  )
+);

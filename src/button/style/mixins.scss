@@ -1,0 +1,19 @@
+@use 'sass:map';
+@mixin apply($list) {
+  @apply #{$list};
+}
+
+@mixin buttonModifier($types) {
+  @each $type, $rule in $types {
+    &--#{$type} {
+      @include apply(map.get($rule, apply));
+      @if map-has-key($rule, pseudos) {
+        @each $pseudoName, $pseudoRule in map.get($rule, pseudos) {
+          &:#{$pseudoName} {
+            @include apply($pseudoRule);
+          }
+        }
+      }
+    }
+  }
+}
