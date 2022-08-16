@@ -11,7 +11,8 @@
     "prepare": "husky install",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:serve": "vitepress serve docs",
+    "test": "vitest"
   },
   "dependencies": {
     "vue": "^3.2.37"
@@ -19,6 +20,7 @@
   "devDependencies": {
     "@iconify-json/carbon": "^1.1.7",
     "@iconify-json/mdi": "^1.1.29",
+    "@testing-library/vue": "^6.6.1",
     "@typescript-eslint/eslint-plugin": "^5.31.0",
     "@typescript-eslint/parser": "^5.31.0",
     "@vitejs/plugin-vue": "^3.0.0",
@@ -28,6 +30,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.3.0",
+    "happy-dom": "^6.0.4",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "postcss": "^8.4.14",
@@ -39,6 +42,7 @@
     "vite": "^3.0.0",
     "vitepress": "^1.0.0-alpha.4",
     "vitepress-theme-demoblock": "^1.4.2",
+    "vitest": "^0.22.0",
     "vue-tsc": "^0.38.4"
   },
   "lint-staged": {

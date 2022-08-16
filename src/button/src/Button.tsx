@@ -1,5 +1,6 @@
 import { defineComponent } from 'vue'
 import { buttonProps, ButtonProps } from './types'
+import '../style/button.scss'
 
 export default defineComponent({
   name: 'WButton',
